@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="mmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/currentmmr" />
+    <TextView
+        android:text="lastmmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/currentmmr"
+        android:id="@+id/lastmmr" />
+    <TextView
+        android:text="cwin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentmmr"
+        android:id="@+id/casualwins" />
+    <TextView
+        android:text="close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentmmr"
+        android:layout_toRightOf="@id/casualwins"
+        android:id="@+id/casuallosses" />
+    <TextView
+        android:text="ctotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/currentmmr"
+        android:layout_toRightOf="@id/casuallosses"
+        android:id="@+id/casualtotal" />
+    <TextView
+        android:text="rwin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/casualwins"
+        android:id="@+id/rankedwins" />
+    <TextView
+        android:text="rlose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/casualwins"
+        android:layout_toRightOf="@id/casualwins"
+        android:id="@+id/rankedlosses" />
+    <TextView
+        android:text="rtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/casualwins"
+        android:layout_toRightOf="@id/casuallosses"
+        android:id="@+id/rankedtotal" />
+    <TextView
+        android:text="ck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rankedtotal"
+        android:id="@+id/casualkils" />
+    <TextView
+        android:text="cd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rankedtotal"
+        android:layout_toRightOf="@id/casualwins"
+        android:id="@+id/casualdeaths" />
+    <TextView
+        android:text="rk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/casualdeaths"
+        android:id="@+id/rankedkils" />
+    <TextView
+        android:text="rd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/casualdeaths"
+        android:layout_toRightOf="@id/casualwins"
+        android:id="@+id/rankeddeaths" />
+
+</RelativeLayout>

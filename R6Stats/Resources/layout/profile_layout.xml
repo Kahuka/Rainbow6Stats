@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/profilePic" />
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profilePic"
+        android:id="@+id/profileName" />
+    <TextView
+        android:text="Level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profilePic"
+        android:layout_below="@id/profileName"
+        android:id="@+id/profileLevel" />
+    <TextView
+        android:text="KD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileLevel"
+        android:layout_toRightOf="@id/profilePic"
+        android:id="@+id/profileKD" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="200px"
+        android:maxHeight="200px"
+        android:id="@+id/mmrPic"
+        android:layout_alignParentRight="true"
+        android:cropToPadding="true"
+        android:adjustViewBounds="true" />
+    <TextView
+        android:text="MMR"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/mmrPic"
+        android:id="@+id/profileMMR" />
+</RelativeLayout>
