@@ -4,17 +4,73 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/profilePic2" />
+    <TextView
+        android:text="Punisher_kahuka sa ei ole mind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameText"
+        android:layout_toRightOf="@id/profilePic2"
+        android:textStyle="bold|normal" />
     <TextView
         android:text="Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/nameText" />
-    <ListView
-        android:minWidth="25px"
-        android:minHeight="25px"
+        android:layout_below="@id/profilePic2"
+        android:id="@+id/statboard1" />
+    <TextView
+        android:text="Text"    
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nameText"
-        android:id="@+id/statsList" />
+        android:layout_below="@id/statboard1"
+        android:id="@+id/statboard2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_below="@id/statboard2"
+        android:id="@+id/statboard3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_below="@id/statboard3"
+        android:id="@+id/statboard4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_below="@id/statboard4"
+        android:id="@+id/statboard5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_below="@id/statboard5"
+        android:id="@+id/statboard6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_below="@id/statboard6"
+        android:id="@+id/statboard7"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_below="@id/statboard7"
+        android:id="@+id/statboard8"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_below="@id/statboard8"
+        android:id="@+id/statboard9"/>
 
 </RelativeLayout>

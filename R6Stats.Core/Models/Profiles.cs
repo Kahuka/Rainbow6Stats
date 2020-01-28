@@ -4,13 +4,13 @@ using System.Text;
 
 namespace R6Stats.Core.Models
 {
-    public partial class Profiles
+    public class Profiles
     {
         public long Totalresults { get; set; }
         public List<ProfilesDetails> Results { get; set; }
 
     }
-    public partial class ProfilesDetails
+    public class ProfilesDetails
     {
         public string P_id { get; set; }
         public string P_name { get; set; }

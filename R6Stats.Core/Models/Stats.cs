@@ -4,7 +4,7 @@ using System.Text;
 
 namespace R6Stats.Core.Models
 {
-    public partial class Stats
+    public class Stats
     {
         //public bool Playerfound { get; set; }
         //public List<Ranked> Ranked { get; set; }
@@ -74,7 +74,7 @@ namespace R6Stats.Core.Models
     //    public string embed { get; set; }
     //}
 
-    public partial class Seasonal
+    public class Seasonal
     {
         public long Current_EU_mmr { get; set; }
         public long Last_EU_mmr { get; set; }

@@ -4,8 +4,12 @@ using System.Text;
 
 namespace R6Stats.Core.Models
 {
-    public partial class OverallData
+    public class OverallData
     {
-        public string P_data { get; set; }
+        public List<int> Data { get; set; }
+
     }
+
+
+
 }
